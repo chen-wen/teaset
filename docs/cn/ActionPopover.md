@@ -112,6 +112,9 @@ fromView.measureInWindow((x, y, width, height) => {
       height:100%;
       overflow-y:scroll;
     }
+    .sidebar dl dd{
+        margin-bottom: 0;
+    }
     .sidebar a {
         font-size: 12px;
     }
