@@ -52,7 +52,6 @@ fromView.measureInWindow((x, y, width, height) => {
 ![](https://github.com/rilyu/teaset/blob/master/screenshots/18-ActionPopover.png?raw=true)
 
 
-
 <div class="sidebar">
 <dl>
     <dt>主题</dt>
@@ -105,9 +104,18 @@ fromView.measureInWindow((x, y, width, height) => {
 <style>
     .sidebar{
       position:fixed;
-      right:15px;
-      top:10%;
+      right:0px;
+      top:0;
       background:#efefef;
-      padding:15px;
+      padding:0 15px;
+      width: 220px;
+      height:100%;
+      overflow-y:scroll;
+    }
+    .sidebar a {
+        font-size: 12px;
+    }
+    .container-lg {
+        margin-right: 230px;
     }
 </style>
